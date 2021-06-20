@@ -1,0 +1,134 @@
+
+/*Estlização padrão*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+/*Estlização do body*/
+body{
+    color:#fcf9fc;
+    margin-bottom:10px;
+    font-family:'Nunico',Helvetica,sans-serif;
+    background-color:#60aaff;
+    text-align:center;
+}
+
+/*Estlização do menu*/
+#menu{
+    list-style:none;
+    text-decoration:none;
+    background-color:#090231;
+    padding:25px;
+    width: 100%;
+    position: fixed;
+    z-index:1;
+
+}
+    
+/*Estlização do título principal*/
+h1{
+    color:white;
+    margin:10px;
+    font-size:45px;
+}
+
+/*Estlização da tag a das listas não ordenadas*/
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/*Estlização das imagens*/
+
+img{
+    width:100%;
+    height: auto;
+    display:inline-block;
+}
+
+/*Estlização da tag li da lista não ordenada principal*/
+.principal{
+    display:inline-block;
+    padding: 2px;
+    background-color:#60aaff;
+    list-style: none;
+    color:#ffffff;
+    text-decoration: none;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    line-height:2.5;
+    margin: 0 10px;
+    padding:5px;
+    font-size:15px;
+    box-shadow:none;
+}
+
+/*Estlização da imagem do ícone do Whatsapp*/
+.iconewhatsapp img{
+    width: 70px;
+    height: auto;
+    
+}
+
+/*Estlização da div da imagem*/
+.banner{
+    padding-top:100px;
+    margin-bottom:15px;
+}
+
+/*Estlização do ícone de whatsapp fixo*/
+.iconewhatsapp{
+    position:fixed;
+    right:60px;
+    bottom:40px;
+}
+
+/*Estlização dos ícones do menu principal*/
+.icone{
+    width:20px;
+    height: auto;
+    margin-top:5px;
+}
+
+/*Estlização das li do rodapé*/
+.footer li{
+    display:inline-block;
+    padding: 2px;
+    list-style: none;
+    color:#ffffff;
+    text-decoration: none;
+    line-height:2.5;
+    margin: 0 10px;
+    padding:5px;
+    font-size:15px;
+    box-shadow:none;
+}
+
+/*Estlização dos subtítulos*/
+h2{
+    margin:10px;
+    font-size:30px;
+   
+}
+
+/*Estlização dos parágrafos*/
+p{
+    text-align:left;
+    margin: 20px 60px;
+    color:white;
+}
+
+/*Estlização das imagens dos parágrafos*/
+.texto img{
+    width: 500px;
+    height: auto;
+}
+
+/*Estlização dos ícones do rodapé*/
+.footer img{
+    width:20px;
+    height:auto;
+}
